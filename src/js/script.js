@@ -15,7 +15,7 @@ const a = prompt('Один из последних просмотренных ф
     c = prompt('Один из последних просмотренных фильмов?', ''),
     d = prompt('На сколько оцените его?', '');
 
-    personalMovieDB.movies[a] = b;
-    personalMovieDB.movies[c] = d;
+    personalMovieDB.movies[a] = b; /* присваиваем ответу на первый вопрос, ответ на второй вопрос в переменную movies */
+    personalMovieDB.movies[c] = d; // присваиваем ответу на третий вопрос, ответ на етвертый вопрос в переменную movies
 
     console.log(personalMovieDB);
